@@ -1,0 +1,17 @@
+http://localhost:8082/rest/client/hello
+
+
+https://zipkin.io/
+https://zipkin.io/pages/quickstart
+
+Docker
+The Docker Zipkin project is able to build docker images, provide scripts and a docker-compose.yml for launching pre-built images. The quickest start is to run the latest image directly:
+
+docker run -d -p 9411:9411 openzipkin/zipkin
+Java
+
+
+download jar from https://repo1.maven.org/maven2/io/zipkin/java/zipkin-server/2.12.9/
+java -jar zipkin-server-2.12.9-exec.jar
+
+open browser http://localhost:9411/zipkin/
